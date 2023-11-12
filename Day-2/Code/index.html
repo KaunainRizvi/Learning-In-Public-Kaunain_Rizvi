@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* CSS for the Box Model */
+        .red-box {
+            border: 2px solid red;
+            padding: 20px;
+            margin: 10px;
+        }
+
+        .blue-box {
+            border: 2px solid blue;
+            padding: 10px;
+            margin: 5px;
+        }
+
+        /* CSS for Selectors */
+        #special-box {
+            background-color: yellow;
+        }
+
+        .team-members {
+            font-weight: bold;
+            color: green;
+        }
+    </style>
+    <title>Basic Web Page with CSS Box Model and Selectors</title>
+</head>
+<body>
+
+    <div class="red-box">
+        <h1>Parent Box (Red Box)</h1>
+        <div class="blue-box">
+            <p>Child Box 1</p>
+        </div>
+        <div class="blue-box">
+            <p>Child Box 2</p>
+        </div>
+        <div class="blue-box">
+            <p>Child Box 3</p>
+        </div>
+        <div class="blue-box">
+            <p>Child Box 4</p>
+        </div>
+    </div>
+
+    <div id="special-box">
+        <h2>Special Box with ID Selector</h2>
+        <p>This box has a yellow background color.</p>
+    </div>
+
+    <div class="team-members">
+        <h2>CSK Team Members</h2>
+        <ul>
+            <li>Player 1</li>
+            <li>Player 2</li>
+            <li>Player 3</li>
+        </ul>
+    </div>
+
+</body>
+</html>
